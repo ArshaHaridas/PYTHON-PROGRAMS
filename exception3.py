@@ -1,3 +1,6 @@
+'''Write a custom exception which is raised if user entered login
+credentials remain invalid.'''
+
 class CheckEx (Exception):
 	pass
 try:
